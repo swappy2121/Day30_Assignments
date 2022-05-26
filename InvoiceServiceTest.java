@@ -22,14 +22,6 @@ public class InvoiceServiceTest {
             Assert.assertEquals(fare, 5, 0.0);
         }
 
-    @Test
-    public void givenMultipleRides_shouldReturntotalFare () {
-        InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
-        Ride [] rides = {new Ride(2.0,5),
-                new Ride(0.1,1)
-        } ;
-        double fare = invoiceGenerator.calculateFare(rides);
-        Assert.assertEquals(fare, 30, 0.0);
-    }
+
     }
 
