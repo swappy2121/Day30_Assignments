@@ -22,7 +22,7 @@ public  class InvoiceGenerator {
         for(Ride ride : rides){
             totalFare += this.calculateFare(ride.distance,ride.time);
         }
-        return totalFare;
+        return totalFare = 0;
     }
 
 }
