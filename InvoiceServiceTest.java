@@ -9,6 +9,6 @@ public class InvoiceServiceTest {
         double distance = 2.0;
         int time = 5;
         double fare = invoiceGenerator.calculateFare(distance,time);
-        Assert.assertEquals(fare,25);
+        Assert.assertEquals(fare,25,0.0);
     }
 }
