@@ -9,7 +9,5 @@ public class Ride {
         this.time = time;
     }
 
-
-
        }
 
