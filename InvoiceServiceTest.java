@@ -26,7 +26,7 @@ public class InvoiceServiceTest {
         InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
         Ride[] rides = {new Ride(2.0, 5),
                 new Ride(0.1, 1)};
-        double summery = invoiceGenerator.calculateFare(rides);
+        InvoiceSummery summery = invoiceGenerator.calculateFare(rides);
         InvoiceSummery expectedInvoiceSummery = new InvoiceSummery(2,30.0);
         Assert.assertEquals(summery, expectedInvoiceSummery);
     }
